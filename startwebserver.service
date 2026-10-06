@@ -1,0 +1,12 @@
+﻿[Unit]
+Description=Start the Node webserver web server on startup
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/node /home/opc/webserver/index.js
+StandardOutput=syslog
+StandardError=syslog
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

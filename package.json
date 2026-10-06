@@ -1,0 +1,12 @@
+﻿{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Servidor Web Node.js para Oracle Linux Compute VM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
